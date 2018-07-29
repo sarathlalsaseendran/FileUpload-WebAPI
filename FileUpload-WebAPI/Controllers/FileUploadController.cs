@@ -14,7 +14,6 @@ namespace FileUpload_WebAPI.Controllers
     {
         [Mime]
         [Route("upload")]
-        [HttpPost]
         public async Task<FileUploadDetails> Upload()
         {
             // file path
